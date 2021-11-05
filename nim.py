@@ -20,7 +20,6 @@ class Nim():
 
     @classmethod
     def available_actions(cls, piles):
-
         """
         Nim.available_actions(piles) takes a `piles` list as input
         and returns all of the available actions `(i, j)` in that state.
@@ -36,7 +35,6 @@ class Nim():
 
     @classmethod
     def other_player(cls, player):
-
         """
         Nim.other_player(player) returns the player that is not
         `player`. Assumes `player` is either 0 or 1.
@@ -183,7 +181,7 @@ class NimAI():
         If multiple actions have the same Q-value, any of those
         options is an acceptable return value.
         """
-        
+
         estado = tuple(state)
         acciones = Nim.available_actions(state)
 
@@ -296,7 +294,6 @@ def play(ai, human_player=None):
         for i, pile in enumerate(game.piles):
             print(f"Pile {i}: {pile}")
         print()
-
 
         # Compute available actions
         available_actions = Nim.available_actions(game.piles)

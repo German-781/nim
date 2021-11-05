@@ -3,5 +3,5 @@
 Inteligencia artificial con python
 
 
-aplicación IA que aprende a jugar a NIM a través 
+Aplicación IA que aprende a jugar a NIM a través 
         del apredizaje por refuerzo
