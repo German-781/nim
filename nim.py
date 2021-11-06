@@ -49,7 +49,6 @@ class Nim():
         self.player = Nim.other_player(self.player)
 
     def move(self, action):
-
         """
         Make the move `action` for the current player.
         `action` must be a tuple `(i, j)`.
